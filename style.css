@@ -3,21 +3,14 @@
     width: 580px;
     gap: 20px;
     padding: 40px;
-    height:660px;
-}
-
-.bottom{
+    height:580px;
     display: flex;
 }
 
-.left{
+.column{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.plus{
-    flex: 1;
+    gap: 20px;
 }
 
 .button {
@@ -27,5 +20,5 @@
 
 .plus{
     width: 100px;
-    height: 100px;
+    height: 220px;
 }
